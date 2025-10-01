@@ -14,3 +14,9 @@
 .box-simple {
     min-height: 230px;
 }
+
+.responsive img {
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+}
