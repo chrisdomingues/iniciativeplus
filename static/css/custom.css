@@ -20,3 +20,12 @@
   width: 100%;
   height: auto;
 }
+
+.customers .owl-controls,
+.customers li {
+    display: none;
+}
+
+.home-carousel {
+    min-height: 400px;
+}
