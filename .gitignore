@@ -15,6 +15,5 @@ bin-release/
 *.apk
 
 # Hugo
-public/
 
 # Backup Files

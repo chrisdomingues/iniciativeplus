@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IniciativePLUS</title>
+    <link>https://example.org/</link>
+    <description>Recent content on IniciativePLUS</description>
+    <generator>Hugo</generator>
+    <language>pt-pt</language>
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Categories Post</title>
+      <link>https://example.org/blog/2021/08/01/categories-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <guid>https://example.org/blog/2021/08/01/categories-post/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a post with multiple categories in the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linked post</title>
+      <link>https://example.org/blog/2015/10/02/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <guid>https://example.org/blog/2015/10/02/linked-post/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go is for lovers</title>
+      <link>https://example.org/blog/2015/09/17/go-is-for-lovers/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <guid>https://example.org/blog/2015/09/17/go-is-for-lovers/</guid>
+      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://go.dev/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;https://pkg.go.dev/html/template&#34;&gt;go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>https://example.org/blog/2015/08/03/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      <guid>https://example.org/blog/2015/08/03/hugo-is-for-lovers/</guid>
+      <description>This is the summary Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at &lt;a href=&#34;https://example.org/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Creating a new theme</title>
+      <link>https://example.org/blog/2015/06/24/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      <guid>https://example.org/blog/2015/06/24/creating-a-new-theme/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contactos</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>&lt;h1 id=&#34;recrutamento&#34;&gt;Recrutamento&lt;/h1&gt;&#xA;&lt;p&gt;Se pensa que o seu perfil se enquadra nos nossos serviços, ou se procura uma nova oportunidade profissional não hesite em nos contactar ou enviar diretamente o seu CV através do nosso formulário de recrutamento.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eventos</title>
+      <link>https://example.org/eventos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/eventos/</guid>
+      <description>&lt;h2 id=&#34;eventos&#34;&gt;Eventos&lt;/h2&gt;&#xA;&lt;p&gt;Privilegiamos o rigor e o profissionalismo, na dinamização dos mais variados eventos, desde congressos, a Reuniões de Empresa, Simpósios, Stands, Eventos Especiais, mediante os objetivos apresentados e à medida do cliente.&lt;/p&gt;&#xA;&lt;p&gt;Asseguramos a conceção, a organização e coordenação do evento da sua empresa em todas as suas etapas, planeadas ao detalhe, porque todas as ocasiões merecem especial atenção.&lt;/p&gt;&#xA;&lt;figure class=&#34;responsive&#34;&gt;&lt;a href=&#34;#&#34;&gt;&lt;img src=&#34;https://example.org/img/examples/eventos.jpg&#34;&#xA;    alt=&#34;Eventos&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Eventos&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://example.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/faq/</guid>
+      <description>&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formação &amp; Consultoria</title>
+      <link>https://example.org/formacaoeconsultadoria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/formacaoeconsultadoria/</guid>
+      <description>&lt;h2 id=&#34;formação&#34;&gt;Formação&lt;/h2&gt;&#xA;&lt;p&gt;Em Saúde, fruto da permanente atualização científica e introdução de novos produtos no mercado, a formação contínua e pós-graduada é exigência para o sucesso de qualquer empresa na área.&lt;/p&gt;&#xA;&lt;p&gt;A INICIATIVE PLUS disponibiliza um leque atualizado de temas formativos de caracter técnico científicos e comportamentais, além de que tem a capacidade de desenvolver este produto de acordo com a necessidade e objetivo do cliente.&lt;/p&gt;&#xA;&lt;p&gt;Com uma carteira de palestrantes multi-disciplinar e altamente credenciada, é possível desenvolver planos de formação diversos: “On Job”, para equipas de vendas, integrados em eventos científicos ou sociais, entre outros formatos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrate from Jekyll</title>
+      <link>https://example.org/blog/1/01/01/migrate-from-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/blog/1/01/01/migrate-from-jekyll/</guid>
+      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ static/&#xA;        ▾ images/&#xA;            logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Outsourcing</title>
+      <link>https://example.org/outsorcing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/outsorcing/</guid>
+      <description>&lt;h2 id=&#34;outsourcing&#34;&gt;Outsourcing&lt;/h2&gt;&#xA;&lt;p&gt;O nosso objetivo é apoiar os nossos clientes a melhorar a relação com os Consumidores/ Utilizadores dos seus Produtos/Serviços, através do reforço de ações promocionais. Esse objetivo será conseguido pelo desenvolvimento de competências comerciais disponibilizando, de forma ética e através de profissionais competentes, a informação adequada que permita a tomada de decisão por parte do consumidor/utilizador.&lt;/p&gt;&#xA;&lt;figure class=&#34;responsive&#34;&gt;&lt;a href=&#34;#&#34;&gt;&lt;img src=&#34;https://example.org/img/examples/outsourcing.jpg&#34;&#xA;    alt=&#34;Outsourcing&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Outsourcing&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Promotoras</title>
+      <link>https://example.org/promotoras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/promotoras/</guid>
+      <description>&lt;h2 id=&#34;promotoras&#34;&gt;Promotoras&lt;/h2&gt;&#xA;&lt;p&gt;A presença física nos pontos de venda, e o contacto direto com o potencial cliente, é cada vez mais preponderante na diferenciação e comunicação de argumentos de venda. As Promotoras são via, particularmente adequada, para este fim; protocolados para uma intervenção informativa e/ou convidando ao testing, a sensação de risco, que representa para o cliente a aquisição de um produto novo, é minimizada.&lt;/p&gt;&#xA;&lt;p&gt;Assim, no lançamento de novos produtos e na ativação de marcas e produtos, estes profissionais são altamente diferenciadores. O recurso a Promotores é forma de garantia que&#xA;produtos e mensagens, se destacam da concorrência, sendo uma excelente ferramenta de brand awerness e de potenciação de vendas, no prazo imediato.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suporte à Venda &amp; Merchandasing</title>
+      <link>https://example.org/vendaemerchandising/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vendaemerchandising/</guid>
+      <description>&lt;h2 id=&#34;ações-de-suporte-à-venda&#34;&gt;Ações de Suporte à Venda&lt;/h2&gt;&#xA;&lt;p&gt;A INICIATIVE PLUS desenvolve ações várias, e à medida, de notoriedade de marcas&lt;/p&gt;&#xA;&lt;p&gt;e produtos e de Suporte à venda: workshops de saúde, rastreios e ações de educação para a saúde,&lt;/p&gt;&#xA;&lt;p&gt;prestadas por profissionais experientes e tecnicamente habilitados e motivados, devidamente monitorizados e em permanente avaliação de resultados.&lt;/p&gt;&#xA;&lt;p&gt;Criando uma cultura de proximidade cliente/espaço de saúde/promotor do evento, é disponibilizado um impactante serviço de saúde, com consequente fidelização de clientes e a natural potenciação de rotatividade e sell-out.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
